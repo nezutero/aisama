@@ -1,21 +1,27 @@
-import { Ctx, Start, Update, On, Message } from 'nestjs-telegraf';
+import { ConfigService } from '@nestjs/config';
+import { ChatgptService } from '@/chatgpt/chatgpt.service';
+import { Start, Update, Ctx, On, Message } from 'nestjs-telegraf';
 import { Scenes, Telegraf } from 'telegraf';
 
 type Context = Scenes.SceneContext;
+
 @Update()
 export class TelegramService extends Telegraf<Context> {
-  @Start()
-  onStart(@Ctx() ctx: Context) {
-    ctx.replyWithHTML(`
-        <p>
-            Konnichiwa ${ctx.from.username} desu
-            i'm yui chan ^_^ 
-        </p>
-    `);
-  }
+    constructor(private readonly configService: ConfigService, private readonly gpt: ChatgptService) {
+        super(configService.get('TELEGRAM_API_KEY'));
+    }
 
-  @On('text')
-  onMessage(@Message('text') message: string) {
-    return `${message}`;
-  }
+    @Start()
+    onStart(@Ctx() ctx: Context) {
+        ctx.replyWithHTML(`
+      <b>konnichiwa, ${ctx.from.username}</b>
+      i'm yui chan (^_^)
+    `);
+    }
+
+    @On('text')
+    async onMessage(@Message('text') message: string, @Ctx() ctx: Context) {
+        const response = await this.gpt.generateResponse(message).toPromise();
+        ctx.replyWithHTML(response);
+    }
 }
