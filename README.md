@@ -8,7 +8,7 @@
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="200" alt="typescript logo"  />
-  <img width="33" />
+  <img width="43" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="200" alt="yarn logo"  />
 </div>
 
