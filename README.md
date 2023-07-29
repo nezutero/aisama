@@ -36,7 +36,6 @@ yarn install
 ```
 TELEGRAM_TOKEN = "your token"
 OPENAI_KEY = "your token"
-
 ```
 
 ## running the app
