@@ -2,11 +2,7 @@
 
 ###
 
-<img align="right" height="200" src="https://media.tenor.com/P9Iw1v2v_wQAAAAC/anime-oshi-no-ko.gif"  />
-
-###
-
-<div align="left">
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="200" alt="typescript logo"  />
   <img width="43" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="200" alt="yarn logo"  />
