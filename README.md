@@ -1,4 +1,4 @@
-<h3 align="center">ai sama - telegram bot | openai api</h2>
+<h3 align="center">ai sama - telegram chat bot | openai api</h2>
 
 ###
 
