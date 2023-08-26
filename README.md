@@ -1,11 +1,11 @@
-<h2 align="left">ai sama - telegram bot, openai api, for self use</h2>
+<h3 align="center">ai sama - telegram bot | openai api</h2>
 
 ###
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="200" alt="typescript logo"  />
-  <img width="43" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="200" alt="yarn logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="150" alt="typescript logo"  />
+  <img width="30" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="150" alt="yarn logo"  />
 </div>
 
 ###
@@ -18,48 +18,53 @@
 
 ###
 
-telegram-chat-bot
-a cool Telegram chat bot
-
 ## installation
+
+- clone the project:
+
+```
+git clone https://github.com/kenjitheman/ai_sama
+```
+
+- to get all dependencies:
 
 ```
 yarn install
 ```
 
-## Usage
+## usage
 - create a file with name ".config" and inside the file create:
 ```
 TELEGRAM_TOKEN = "your token"
 OPENAI_KEY = "your token"
 ```
 
-## running the app
+- running the app
 
 ```
-# development
+// development
 yarn run start
 
-# watch mode
+// watch mode
 yarn run start:dev
 
-# production mode
+// production mode
 yarn run start:prod
 ```
 
-## or you can run the app using docker ->
+-  or you can run the app using docker:
 ```
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
 
-## Contributing
+## contributing
 
-- Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
+- pull requests are welcome, for major changes, please open an issue first
+to discuss what you would like to change
 
-- Please make sure to update tests as appropriate.
+- please make sure to update tests as appropriate
 
-## License
+## license
 
 - [MIT](https://choosealicense.com/licenses/mit/)
