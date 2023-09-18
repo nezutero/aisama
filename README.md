@@ -12,13 +12,13 @@
 
 ## installation
 
-```
+```shell
 git clone https://github.com/kenjitheman/ai_sama
 ```
 
 - get all dependencies:
 
-```
+```shell
 yarn install
 ```
 
@@ -26,7 +26,7 @@ yarn install
 
 - create a file with name ".config" and inside the file create:
 
-```
+```.env
 TELEGRAM_TOKEN = "your token"
 OPENAI_KEY = "your token"
 ```
@@ -34,23 +34,23 @@ OPENAI_KEY = "your token"
 - running the app
 
 // development
-```
+```shell
 yarn run start
 ```
 
 // watch mode
-```
+```shell
 yarn run start:dev
 ```
 
 // production mode
-```
+```shell
 yarn run start:prod
 ```
 
 -  or run the app using docker:
 
-```
+```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
