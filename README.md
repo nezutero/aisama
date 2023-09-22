@@ -1,8 +1,8 @@
-<h3 align="center">tg chat bot, openai api</h2>
+## tg chat bot, openai api
 
 ###
 
-<div align="center">
+<div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="100" alt="typescript logo"  />
   <img width="15" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg" height="100" alt="yarn logo"  />
