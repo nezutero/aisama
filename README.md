@@ -1,4 +1,4 @@
-## tg chat bot, openai api
+## AI Sama
 
 ###
 
@@ -10,58 +10,58 @@
 
 ###
 
-## installation
+## Installation
 
 ```shell
-git clone https://github.com/kenjitheman/ai_sama
+git clone https://github.com/kenjitheman/aisama
 ```
 
-- get all dependencies:
+- To get all dependencies:
 
 ```shell
 yarn install
 ```
 
-## usage
+## Usage
 
-- create a file with name ".config" and inside the file create:
+- Create a file with name ".config" and inside the file create:
 
 ```.env
 TELEGRAM_TOKEN = "your token"
 OPENAI_KEY = "your token"
 ```
 
-- running the app
+- Running the app
 
-// development
+// Development
 ```shell
 yarn run start
 ```
 
-// watch mode
+// Watch mode
 ```shell
 yarn run start:dev
 ```
 
-// production mode
+// Production mode
 ```shell
 yarn run start:prod
 ```
 
--  or run the app using docker:
+-  To run the app using docker:
 
 ```shell
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first
-to discuss what you would like to change
+- Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-- please make sure to update tests as appropriate
+- Please make sure to update tests as appropriate.
 
-## license
+## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
