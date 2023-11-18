@@ -1,5 +1,7 @@
 ## AI Sama
 
+### Telegram chat bot powered by chat gpt 3.5
+
 ###
 
 <div align="left">
