@@ -1,10 +1,10 @@
 {
-  "name": "nestjs-chatbot-gpt",
+  "name": "aisama",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "description": "ai sama telegram chat bot powered by chat gpt 3.5",
+  "author": "kenjitheman",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
