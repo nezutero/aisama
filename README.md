@@ -14,13 +14,13 @@
 
 ## Installation
 
-```shell
+```sh
 git clone https://github.com/kenjitheman/aisama
 ```
 
 - To get all dependencies:
 
-```shell
+```sh
 yarn install
 ```
 
@@ -36,23 +36,23 @@ OPENAI_KEY = "your token"
 - Running the app
 
 // Development
-```shell
+```sh
 yarn run start
 ```
 
 // Watch mode
-```shell
+```sh
 yarn run start:dev
 ```
 
 // Production mode
-```shell
+```sh
 yarn run start:prod
 ```
 
 -  To run the app using docker:
 
-```shell
+```sh
 docker build -t your_image_name .
 docker run -d -p 8080:80 your_image_name
 ```
