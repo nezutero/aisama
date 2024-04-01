@@ -2,7 +2,7 @@
     "name": "aisama",
     "version": "1.0.0",
     "description": "ai sama telegram chat bot powered by chat gpt 3.5",
-    "author": "kenjitheman",
+    "author": "plastiey",
     "private": true,
     "license": "MIT",
     "scripts": {

@@ -15,7 +15,7 @@
 ## Installation
 
 ```sh
-git clone https://github.com/kenjitheman/aisama
+git clone https://github.com/plastiey/aisama
 ```
 
 - To get all dependencies:
