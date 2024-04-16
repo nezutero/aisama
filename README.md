@@ -3,7 +3,7 @@
 ## Installation
 
 ```sh
-git clone https://github.com/kenjitheman/ai-chan
+git clone https://github.com/nezutero/ai-chan
 ```
 
 - Install all dependencies:
